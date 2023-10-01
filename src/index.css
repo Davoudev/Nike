@@ -6,7 +6,7 @@
 @tailwind utilities;
 
 @layer utilities {
-  .info-text {
-      @apply font-montserrat text-slate-gray text-lg leading-7;
-    }
+.info-text {
+    @apply font-montserrat text-slate-gray text-lg leading-7;
+  }
   }
