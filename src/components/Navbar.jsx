@@ -4,9 +4,9 @@ import { navLinks } from "../../../Nike-t/src/constants";
 
 const Navbar = () => {
   return (
-    <header className="m-6 w-full">
-      <nav className="flex justify-between mx-10 py-2 max-sm:mx-1">
-        <a href="/">
+    <header className="my-6 w-full px-16 max-sm:px-8 z-20 absolute ">
+      <nav className="flex justify-between  py-2 max-sm:mx-1">
+        <a href="/" className="outline-none">
           <img src={headerLogo} alt="Logo" width={130} height={29} />
         </a>
         <ul className="flex">
