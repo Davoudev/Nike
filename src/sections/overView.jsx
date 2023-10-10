@@ -8,7 +8,7 @@ import ShoeCard from "../components/ShoeCard";
 const OverView = () => {
   const [bigshoeImg, setbigshoeImg] = useState(bigShoe1);
   return (
-    <div className="grid grid-cols-11 min-h-screen overflow-x-hidden">
+    <div className="grid grid-cols-11 min-h-screen overflow-x-hidden pr-0 ">
       <div className="mt-24 col-start-1 col-end-6 pl-16 max-xl:col-end-12 max-sm:pl-8">
         <div className="my-10">
           <p className="text-xl font-montserrat text-coral-red">

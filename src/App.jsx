@@ -2,12 +2,15 @@ import SuperQuality from "./sections/superQuality";
 import Navbar from "./components/Navbar";
 import OurPopularProduct from "./sections/ourPopularProduct";
 import OverView from "./sections/overView";
+import Services from "./sections/Services";
+import SpecialOffer from "./sections/SpecialOffer";
+import Customers from "./sections/Customers";
 
 const App = () => {
   return (
     <main>
       <Navbar />
-      <section className="pr-0 ">
+      <section>
         <OverView />
       </section>
       <section>
@@ -15,6 +18,15 @@ const App = () => {
       </section>
       <section>
         <SuperQuality />
+      </section>
+      <section>
+        <Services />
+      </section>
+      <section>
+        <SpecialOffer />
+      </section>
+      <section>
+        <Customers />
       </section>
     </main>
   );
