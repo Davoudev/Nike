@@ -4,6 +4,7 @@ const Button = ({
   backgroundColor,
   borderColor,
   textcolor,
+  fullWidth,
 }) => {
   return (
     <button
@@ -11,7 +12,7 @@ const Button = ({
         backgroundColor
           ? `${backgroundColor} ${borderColor} ${textcolor}`
           : "bg-coral-red text-white"
-      } `}
+      } ${fullWidth && "w-full"} `}
     >
       {label}
       {iconURL && <img src={iconURL} alt="arrow right icon" className="pl-4" />}

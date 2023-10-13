@@ -5,6 +5,8 @@ import OverView from "./sections/overView";
 import Services from "./sections/Services";
 import SpecialOffer from "./sections/SpecialOffer";
 import Customers from "./sections/Customers";
+import Updates from "./sections/Updates";
+import Footer from "./sections/Footer";
 
 const App = () => {
   return (
@@ -28,6 +30,12 @@ const App = () => {
       <section>
         <Customers />
       </section>
+      <section>
+        <Updates />
+      </section>
+      <footer>
+        <Footer />
+      </footer>
     </main>
   );
 };
